@@ -88,7 +88,7 @@ require_once 'database.php';
                     foreach($data as $post) { ?>
                         <div class="col-md-4">
                             <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" src="<?php echo $post['post_image'] ?>" alt="Card image cap">
+                                <img class="card-img-top" src="<?php echo $post['post_image'] ?>" alt="Card image cap" height="250px">
                                 <div class="card-body">
                                     <h2><?php echo $post['post_name'] ?></h2>
                                     <p class="card-text"><?php echo $post['post_content'] ?></p>
